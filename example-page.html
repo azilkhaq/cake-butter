@@ -1,0 +1,33 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(function () {
+        $("#includePreloader").load("layouts/preloader.html");
+        $("#includeNavbar").load("layouts/navbar.html");
+        $("#includeHead").load("layouts/head.html");
+        $("#includeScript").load("layouts/script.html");
+    });
+</script>
+
+<div id="includeHead"></div>
+
+<body>
+
+    <div class="page-wrapper">
+
+        <div id="includePreloader"></div>
+
+        <div id="includeNavbar"></div>
+
+        <!-- Content -->
+
+        <h3>Example</h3>
+        
+        <!-- End Content -->
+
+    </div>
+
+</body>
+
+<div id="includeScript"></div>
+
+</html>
